@@ -24,10 +24,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/salespaulo/fvi-validator-js.git"
+        "url": "https://github.com/salespaulo/fvi-validator.git"
     },
     "issues": {
-        "url": "https://github.com/salespaulo/fvi-validator-js/issues"
+        "url": "https://github.com/salespaulo/fvi-validator/issues"
     },
     "keywords": [
         "node.js",
@@ -38,7 +38,7 @@
     ],
     "author": "FVI",
     "license": "UNLICENSED",
-    "homepage": "https://github.com/salespaulo/fvi-validator-js.git#README.md",
+    "homepage": "https://github.com/salespaulo/fvi-validator.git#README.md",
     "devDependencies": {
         "chai": "^4.2.0",
         "fvi-prettier-config": "^0.0.1",
