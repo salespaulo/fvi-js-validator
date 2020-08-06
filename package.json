@@ -1,5 +1,5 @@
 {
-    "name": "fvi-validator-js",
+    "name": "fvi-validator",
     "version": "0.0.1",
     "description": "FVI - Validator JS",
     "main": "src/index.js",

@@ -1,1 +1,1 @@
-declare module 'fvi-validator-js'
+declare module 'fvi-validator'
