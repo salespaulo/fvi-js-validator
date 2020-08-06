@@ -26,15 +26,19 @@
         "type": "git",
         "url": "https://github.com/salespaulo/fvi-validator-js.git"
     },
+    "issues": {
+        "url": "https://github.com/salespaulo/fvi-validator-js/issues"
+    },
     "keywords": [
-        "node",
-        "nodejs",
-        "utils",
-        "utilities"
+        "node.js",
+        "javascript",
+        "browser",
+        "validator",
+        "compatibility"
     ],
     "author": "FVI",
     "license": "UNLICENSED",
-    "homepage": "https://github.com/salespaulo/fvi-validator-js.git",
+    "homepage": "https://github.com/salespaulo/fvi-validator-js.git#README.md",
     "devDependencies": {
         "chai": "^4.2.0",
         "fvi-prettier-config": "^0.0.1",
