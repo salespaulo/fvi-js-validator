@@ -3,7 +3,7 @@ module.exports = {
     output: {
         filename: 'index.js',
         sourceMapFilename: 'index.map',
-        library: 'fvi-validator-js',
+        library: 'fvi-validator',
         libraryTarget: 'umd',
     },
     devtool: 'source-map',

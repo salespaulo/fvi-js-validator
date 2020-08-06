@@ -1,6 +1,6 @@
 {
-    "name": "fvi-validator-js",
-    "version": "0.0.1",
+    "name": "fvi-validator",
+    "version": "0.0.2",
     "description": "FVI - Validator JS",
     "main": "src/index.js",
     "module": "src/index.js",

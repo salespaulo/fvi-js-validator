@@ -1,6 +1,6 @@
 ## FVI - Validator JS
 
-# fvi-validator-js
+# fvi-validator
 
 -   `npm run compile`: Clean temp files and e directories.
 -   `npm run debug-test`: Run mocha unit tests with DEBUG enabled.
