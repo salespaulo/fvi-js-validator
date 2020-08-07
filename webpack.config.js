@@ -1,9 +1,11 @@
+const pkg = require('./package.json')
+
 module.exports = {
     mode: 'production',
     output: {
-        filename: 'index.js',
-        sourceMapFilename: 'index.map',
-        library: 'fvi-js-validator',
+        filename: pkg.name + '.js',
+        sourceMapFilename: pkg.name + '.map',
+        library: pkg.name,
         libraryTarget: 'umd',
     },
     devtool: 'source-map',
