@@ -42,6 +42,9 @@
     "devDependencies": {
         "chai": "^4.2.0",
         "fvi-prettier-config": "^0.0.1",
+        "@babel/cli": "^7.10.1",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
         "grunt": "^1.0.4",
         "grunt-concurrent": "^3.0.0",
         "grunt-contrib-clean": "^2.0.0",

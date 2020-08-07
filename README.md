@@ -1,6 +1,24 @@
-## FVI - Validator JS
+## FVI - Vaolidator JS
 
-# fvi-js-validator
+### How to use
+
+```javascript
+const { Validator, Required, isString, isNotEmpty, isInteger, isMin } = require('fvi-js-validator')
+
+const validate = Validator({
+    id: Required([isString(), isNotEmpty()]),
+    age: Required([isInteger(), isMin(18)]),
+    name: [isString()],
+})
+
+try {
+    validate({ id: '1234', age: 10 })
+} catch (e) {
+    console.error(e)
+}
+```
+
+### fvi-js-validator - npm scripts
 
 -   `npm run compile`: Clean temp files and e directories.
 -   `npm run debug-test`: Run mocha unit tests with DEBUG enabled.
